@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F41507881EF486D600A582AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41507871EF486D600A582AF /* AppDelegate.swift */; };
+		F415078A1EF486D600A582AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41507891EF486D600A582AF /* ViewController.swift */; };
+		F415078D1EF486D600A582AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F415078B1EF486D600A582AF /* Main.storyboard */; };
+		F415078F1EF486D600A582AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F415078E1EF486D600A582AF /* Assets.xcassets */; };
+		F41507921EF486D600A582AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F41507901EF486D600A582AF /* LaunchScreen.storyboard */; };
+		F415079D1EF486D600A582AF /* KittenAdoptRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F415079C1EF486D600A582AF /* KittenAdoptRTests.swift */; };
+		F41507A81EF4871800A582AF /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41507A71EF4871800A582AF /* ViewControllerTests.swift */; };
+		F41507AA1EF498BF00A582AF /* KittenDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41507A91EF498BF00A582AF /* KittenDataSource.swift */; };
+		F4ECF2EB1EF5BCF700B0DCD2 /* KittenDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ECF2EA1EF5BCF700B0DCD2 /* KittenDataSourceTests.swift */; };
+		F4ECF2ED1EF5BE5800B0DCD2 /* KittenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ECF2EC1EF5BE5800B0DCD2 /* KittenTests.swift */; };
+		F4ECF2EF1EF5BF9700B0DCD2 /* Kitten.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ECF2EE1EF5BF9700B0DCD2 /* Kitten.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F41507991EF486D600A582AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F415077C1EF486D600A582AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F41507831EF486D600A582AF;
+			remoteInfo = KittenAdoptR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F41507841EF486D600A582AF /* KittenAdoptR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KittenAdoptR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41507871EF486D600A582AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F41507891EF486D600A582AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F415078C1EF486D600A582AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F415078E1EF486D600A582AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F41507911EF486D600A582AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F41507931EF486D600A582AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F41507981EF486D600A582AF /* KittenAdoptRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KittenAdoptRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F415079C1EF486D600A582AF /* KittenAdoptRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittenAdoptRTests.swift; sourceTree = "<group>"; };
+		F415079E1EF486D600A582AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F41507A71EF4871800A582AF /* ViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		F41507A91EF498BF00A582AF /* KittenDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KittenDataSource.swift; sourceTree = "<group>"; };
+		F4ECF2EA1EF5BCF700B0DCD2 /* KittenDataSourceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KittenDataSourceTests.swift; sourceTree = "<group>"; };
+		F4ECF2EC1EF5BE5800B0DCD2 /* KittenTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KittenTests.swift; sourceTree = "<group>"; };
+		F4ECF2EE1EF5BF9700B0DCD2 /* Kitten.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kitten.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F41507811EF486D600A582AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41507951EF486D600A582AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F415077B1EF486D600A582AF = {
+			isa = PBXGroup;
+			children = (
+				F41507861EF486D600A582AF /* KittenAdoptR */,
+				F415079B1EF486D600A582AF /* KittenAdoptRTests */,
+				F41507851EF486D600A582AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F41507851EF486D600A582AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F41507841EF486D600A582AF /* KittenAdoptR.app */,
+				F41507981EF486D600A582AF /* KittenAdoptRTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F41507861EF486D600A582AF /* KittenAdoptR */ = {
+			isa = PBXGroup;
+			children = (
+				F41507871EF486D600A582AF /* AppDelegate.swift */,
+				F41507891EF486D600A582AF /* ViewController.swift */,
+				F415078B1EF486D600A582AF /* Main.storyboard */,
+				F415078E1EF486D600A582AF /* Assets.xcassets */,
+				F41507901EF486D600A582AF /* LaunchScreen.storyboard */,
+				F41507931EF486D600A582AF /* Info.plist */,
+				F41507A91EF498BF00A582AF /* KittenDataSource.swift */,
+				F4ECF2EE1EF5BF9700B0DCD2 /* Kitten.swift */,
+			);
+			path = KittenAdoptR;
+			sourceTree = "<group>";
+		};
+		F415079B1EF486D600A582AF /* KittenAdoptRTests */ = {
+			isa = PBXGroup;
+			children = (
+				F41507A71EF4871800A582AF /* ViewControllerTests.swift */,
+				F415079C1EF486D600A582AF /* KittenAdoptRTests.swift */,
+				F415079E1EF486D600A582AF /* Info.plist */,
+				F4ECF2EA1EF5BCF700B0DCD2 /* KittenDataSourceTests.swift */,
+				F4ECF2EC1EF5BE5800B0DCD2 /* KittenTests.swift */,
+			);
+			path = KittenAdoptRTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F41507831EF486D600A582AF /* KittenAdoptR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F41507A11EF486D600A582AF /* Build configuration list for PBXNativeTarget "KittenAdoptR" */;
+			buildPhases = (
+				F41507801EF486D600A582AF /* Sources */,
+				F41507811EF486D600A582AF /* Frameworks */,
+				F41507821EF486D600A582AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KittenAdoptR;
+			productName = KittenAdoptR;
+			productReference = F41507841EF486D600A582AF /* KittenAdoptR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F41507971EF486D600A582AF /* KittenAdoptRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F41507A41EF486D600A582AF /* Build configuration list for PBXNativeTarget "KittenAdoptRTests" */;
+			buildPhases = (
+				F41507941EF486D600A582AF /* Sources */,
+				F41507951EF486D600A582AF /* Frameworks */,
+				F41507961EF486D600A582AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F415079A1EF486D600A582AF /* PBXTargetDependency */,
+			);
+			name = KittenAdoptRTests;
+			productName = KittenAdoptRTests;
+			productReference = F41507981EF486D600A582AF /* KittenAdoptRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F415077C1EF486D600A582AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Joe Susnick";
+				TargetAttributes = {
+					F41507831EF486D600A582AF = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = NEL58AT86X;
+						ProvisioningStyle = Automatic;
+					};
+					F41507971EF486D600A582AF = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = NEL58AT86X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F41507831EF486D600A582AF;
+					};
+				};
+			};
+			buildConfigurationList = F415077F1EF486D600A582AF /* Build configuration list for PBXProject "KittenAdoptR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F415077B1EF486D600A582AF;
+			productRefGroup = F41507851EF486D600A582AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F41507831EF486D600A582AF /* KittenAdoptR */,
+				F41507971EF486D600A582AF /* KittenAdoptRTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F41507821EF486D600A582AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41507921EF486D600A582AF /* LaunchScreen.storyboard in Resources */,
+				F415078F1EF486D600A582AF /* Assets.xcassets in Resources */,
+				F415078D1EF486D600A582AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41507961EF486D600A582AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F41507801EF486D600A582AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F415078A1EF486D600A582AF /* ViewController.swift in Sources */,
+				F41507881EF486D600A582AF /* AppDelegate.swift in Sources */,
+				F4ECF2EF1EF5BF9700B0DCD2 /* Kitten.swift in Sources */,
+				F41507AA1EF498BF00A582AF /* KittenDataSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41507941EF486D600A582AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41507A81EF4871800A582AF /* ViewControllerTests.swift in Sources */,
+				F415079D1EF486D600A582AF /* KittenAdoptRTests.swift in Sources */,
+				F4ECF2ED1EF5BE5800B0DCD2 /* KittenTests.swift in Sources */,
+				F4ECF2EB1EF5BCF700B0DCD2 /* KittenDataSourceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F415079A1EF486D600A582AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F41507831EF486D600A582AF /* KittenAdoptR */;
+			targetProxy = F41507991EF486D600A582AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F415078B1EF486D600A582AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F415078C1EF486D600A582AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F41507901EF486D600A582AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F41507911EF486D600A582AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F415079F1EF486D600A582AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F41507A01EF486D600A582AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F41507A21EF486D600A582AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NEL58AT86X;
+				INFOPLIST_FILE = KittenAdoptR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joesus.KittenAdoptR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F41507A31EF486D600A582AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NEL58AT86X;
+				INFOPLIST_FILE = KittenAdoptR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joesus.KittenAdoptR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F41507A51EF486D600A582AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NEL58AT86X;
+				INFOPLIST_FILE = KittenAdoptRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joesus.KittenAdoptRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KittenAdoptR.app/KittenAdoptR";
+			};
+			name = Debug;
+		};
+		F41507A61EF486D600A582AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NEL58AT86X;
+				INFOPLIST_FILE = KittenAdoptRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joesus.KittenAdoptRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KittenAdoptR.app/KittenAdoptR";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F415077F1EF486D600A582AF /* Build configuration list for PBXProject "KittenAdoptR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F415079F1EF486D600A582AF /* Debug */,
+				F41507A01EF486D600A582AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F41507A11EF486D600A582AF /* Build configuration list for PBXNativeTarget "KittenAdoptR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F41507A21EF486D600A582AF /* Debug */,
+				F41507A31EF486D600A582AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F41507A41EF486D600A582AF /* Build configuration list for PBXNativeTarget "KittenAdoptRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F41507A51EF486D600A582AF /* Debug */,
+				F41507A61EF486D600A582AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F415077C1EF486D600A582AF /* Project object */;
+}
